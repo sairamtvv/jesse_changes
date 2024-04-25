@@ -76,7 +76,10 @@ class exchanges:
     BITGET_USDT_PERPETUAL_TESTNET = 'Bitget USDT Perpetual Testnet'
     DYDX_PERPETUAL = "Dydx Perpetual"
     DYDX_PERPETUAL_TESTNET = "Dydx Perpetual Testnet"
-
+    NSE = "nse"
+    BSE = "bse"
+    DHAN = "dhan"
+    
 
 class migration_actions:
     ADD = 'add'
@@ -92,3 +95,4 @@ class migration_actions:
 class order_submitted_via:
     STOP_LOSS = 'stop-loss'
     TAKE_PROFIT = 'take-profit'
+

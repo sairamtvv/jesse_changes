@@ -89,3 +89,10 @@ def fake_candle(attributes: dict = None, reset: bool = False) -> np.ndarray:
         attributes.get('low', low_price),
         attributes.get('volume', volume)
     ], dtype=np.float64)
+
+
+if __name__ == "__main__":
+    # candles_out  = candles_from_close_prices(range(0,10))
+    # print(candles_out)
+    candles_range = range_candles(10)
+    print(candles_range)
